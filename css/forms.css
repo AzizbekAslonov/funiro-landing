@@ -1,0 +1,35 @@
+/* =================================================================== */
+form{
+
+}
+
+input{
+   padding: 0 12px;
+   display: block;
+   width: 100%;
+}
+
+.btn {
+   display: inline-flex;
+   justify-content: center;
+   align-items: center;
+   padding: 0px 15px;
+   min-height: 48px;
+   transition: background-color 0.4s ease 0s;
+}
+
+.btn_white{
+   color: var(--orange);
+   background-color: #fff;
+}
+
+@media(any-hover: hover){
+   .btn_white:hover{
+     background-color: var(--orange);
+     color: #fff; 
+   }
+}
+
+
+
+/* =================================================================== */
